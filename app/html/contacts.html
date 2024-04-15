@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+//= templates/head.html
+<body class="preload">
+  //= templates/header-inner.html
+  <main class="main__wrapper">
+    <div class="inner__heading lazy" data-bg="url(../img/inner__heading-bg-contacts.jpg)">
+      <div class="container">
+        <div class="breadcrumbs">
+          <span>
+            <a href="#">Главная</a>
+          </span>
+          <span>
+            Контакты
+          </span>
+        </div>
+        <h1 class="inner__title">Контактная информация</h1>
+      </div>
+    </div>
+    <div class="inner__container contacts__container">
+      <div class="container">
+        <div class="contacts__content">
+          <div class="contacts__items__wrap">
+            <div class="contacts__item">
+              <div class="contacts__item__icon icon__wrap">
+                <svg>
+                  <use xlink:href="#icon-phone-ringing"></use>
+                </svg>
+              </div>
+              <div class="contacts__item__title">Позвоните нам</div>
+              <a href="tel:88000000000" class="contacts__phone">8 (800) 000-00-00</a>
+            </div>
+            <div class="contacts__item">
+              <div class="contacts__item__icon icon__wrap">
+                <svg>
+                  <use xlink:href="#icon-letters"></use>
+                </svg>
+              </div>
+              <div class="contacts__item__title">Напишите нам</div>
+              <a href="mailto:test@mail.ru" class="contacts__mail">test@mail.ru</a>
+            </div>
+            <div class="contacts__item">
+              <div class="contacts__item__icon icon__wrap">
+                <svg>
+                  <use xlink:href="#icon-headset"></use>
+                </svg>
+              </div>
+              <div class="contacts__item__title">Свяжитесь с нами</div>
+              <div class="btn-feedback" data-get-popup="callback">Обратная связь</div>
+            </div>
+          </div>
+          <div class="contacts__blocks__wrap">
+            <div class="contacts__block address">
+              <div class="contacts__block__title">Юридический адрес:</div>
+              <div class="contacts__block__content">
+                142608, Московская область, г. Орехово-Зуево, ул. Московская, д.2, п.
+              </div>
+            </div>
+            <div class="contacts__block requisites">
+              <div class="contacts__block__title">Наши реквизиты:</div>
+              <div class="contacts__block__content">
+                ИНН/КПП 5404032783/540401001<br>
+                ОГРН: 1165476088777<br>
+                Расчетный счет, банк: 40702810844050032212, ПАО Сбербанк<br>
+                Корреспондентский счет: 30101810500000000641<br>
+                БИК: 045004641
+              </div>
+            </div>
+            <div class="contacts__block social">
+              <div class="contacts__block__title social__title">Мы в соцсетях:</div>
+              <div class="contacts__block__content social__items__wrap">
+                <a class="social__item icon__wrap" href="#" target="_blank">
+                  <svg>
+                    <use xlink:href="#icon-vk"></use>
+                  </svg>
+                </a>
+                <a class="social__item icon__wrap" href="#" target="_blank">
+                  <svg>
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a class="social__item icon__wrap" href="#" target="_blank">
+                  <svg>
+                    <use xlink:href="#icon-odnoklassniki"></use>
+                  </svg>
+                </a>
+                <a class="social__item icon__wrap" href="#" target="_blank">
+                  <svg>
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="contacts__block messengers">
+              <div class="contacts__block__title messengers__title">Месенджеры:</div>
+              <div class="contacts__block__content messengers__items__wrap">
+                <a class="messengers__item icon__wrap" href="#" target="_blank">
+                  <svg>
+                    <use xlink:href="#icon-whatsapp"></use>
+                  </svg>
+                </a>
+                <a class="messengers__item icon__wrap" href="#" target="_blank">
+                  <svg>
+                    <use xlink:href="#icon-viber"></use>
+                  </svg>
+                </a>
+                <a class="messengers__item icon__wrap" href="#" target="_blank">
+                  <svg>
+                    <use xlink:href="#icon-telegram"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contacts__map" id="contacts__map"></div>
+      </div>
+    </div>
+  </main>
+  //= templates/footer.html
+  //= templates/popups.html
+  //= templates/sprite.html
+  //= templates/scripts.html
+</body>
+</html>
